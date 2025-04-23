@@ -1,0 +1,59 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(233, 19, 19, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contener{
+    display: none;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    border-radius: 10px ;
+    border: solid 5px red;
+    box-shadow: 0 0 20px 5px red;
+    border-top: 5px solid  rgb(190, 131, 134);
+
+}
+.jeu{
+    
+    position: relative;
+    padding: 200px 250px;
+    background-color: rgba(13, 66, 212, 0.63);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.input{
+    
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+}
+input{
+    
+    padding: 10px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+}
+h1{
+    color: red;
+}
+#newGame {
+    display: none;
+}
+
+p{
+    padding: 15px;
+}
+.difficulter {
+    
+    padding: 15px 25px;
+
+}
+.difficulter button {
+    padding: 30px;
+}

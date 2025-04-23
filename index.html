@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mystery-Number</title>
+</head>
+<body>
+    
+    <section class="contener">
+        <h1 id="h1"></h1>
+        <div class="jeu">
+                <input type="number" min="1" max="10" id="input" placeholder="TROUVE LE CHIFFRE ">
+                <button id="check">Trouvé ??</button>
+                <div>
+                    <p id="indice"></p>
+                    <p id="essai"></p>
+                    <p id="fini"></p>
+                    <button id="newGame" onclick="resett" >NOUVELLE PARTIE</button>
+                </div>
+        </div>
+        
+    </section>
+    <section class="difficulter">
+             <div>
+                 <button type="button" id="niveau(easy)" onclick="lvl(facile)">Facile</button>
+                 <button type="button" id="niveau(medium)" onclick="lvl(normal)">Normal</button>
+                 <button type="button" id="niveau(hard)" onclick="lvl(difficile)">Difficile</button>
+             </div>
+        </section>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
