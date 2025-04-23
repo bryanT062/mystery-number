@@ -31,7 +31,7 @@
 
 
             fini.textContent = "Félicitation tu as trouvé!!!!";
-            fini.style.color = "red";
+            fini.style.color = "green";
             pEssai.textContent = "";
             indice.disabled = true;
             input.disabled = true;
@@ -44,12 +44,12 @@
         else if (userValue > randomNbr) {
 
             indice.textContent = "Perdu c'est -";
-            indice.style.color = "white";
+            
         }
         else {
 
             indice.textContent = "Perdu c'est +";
-            indice.style.color = "white";
+            
         } 
         // let nbrEssai = 3;
         essaiRestants-- ;
