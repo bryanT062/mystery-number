@@ -6,38 +6,34 @@ body{
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    gap: 150px;
+    gap: 125px;
 }
 .contener{
     display: none;
     font-size: 25px;
     background-color: rgb(7, 7, 7);
     text-align: center;
-    box-shadow: 0 0 20px 0px red;
+    box-shadow: 0 0 20px 0px rgba(255, 0, 0, 0.616);
      border-radius: 10px ;
-    border: solid 2px red;
-}
-.jeu .contener{
-    
-
+    border: solid 2px rgba(255, 7, 7, 0.685);
 }
 .jeu{
-     box-shadow: 0 0 20px 0px red;
+     box-shadow: 0 0 20px 0px rgba(255, 0, 0, 0.616);
      border-radius: 10px ;
-    border: solid 2px red;
+    border: solid 2px rgba(255, 0, 0, 0.541);
     position: relative;
     padding: 100px 200px;
     background-color: rgba(255, 255, 255, 0.63);
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    gap: 35px;
+    gap: 20px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROe2u7nXCBAK8fs4Lh4bkUZO8hUcsUX82VzA&s);
     background-size: cover;
 }
 .jeu button{
     padding: 25px;
-    background-color: crimson;
+    background-color: rgba(99, 6, 25, 0.61);
     font-size: 25px;
     color: white;
     border-radius: 25px;

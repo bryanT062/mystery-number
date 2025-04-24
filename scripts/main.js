@@ -33,7 +33,7 @@
             fini.textContent = "Félicitation tu as trouvé!!!!";
             fini.style.color = "green";
             pEssai.textContent = "";
-            indice.disabled = true;
+            indice.textContent = "";
             input.disabled = true;
             verifier.disabled = true;
             nouvellePartie.style.display = "inline-block";
