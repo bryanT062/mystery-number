@@ -138,6 +138,6 @@
      else if (currentLevel == difficile){
 
              randomNbr = Math.floor(Math.random() * 100 ) + 1 ;
-             essaiRestants = 1;
+             essaiRestants = 10;
      }
     }
